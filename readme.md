@@ -10,10 +10,14 @@
 
 ## Getting Started
 
+```
+forked from ascoders/react-native-image-zoom(https://github.com/ascoders/react-native-image-zoom)
+```
+
 ### Installation
 
 ```bash
-npm i react-native-image-pan-zoom --save
+yarn add react-native-image-pan-zoom
 ```
 
 ### Basic Usage
@@ -72,10 +76,13 @@ export default class App extends React.Component {
 | doubleClickInterval        | number                                                                                                                           | time allocated for second click to be considered as doublClick event                                                                                                  | 175          |
 | onMove                     | ( position: [IOnMove](https://github.com/ascoders/react-native-image-zoom/blob/master/src/image-zoom/image-zoom.type.ts) )=>void | reports movement position data (helpful to build overlays)                                                                                                            | ()=> {}      |
 | centerOn                   | { x: number, y: number, scale: number, duration: number }                                                                        | if given this will cause the map to pan and zoom to the desired location                                                                                              | undefined    |
-| enableSwipeDown            | boolean                                                                                                                          | for enabling vertical movement if user doesn't want it                                                                                                                | false        |  | false |
 | enableCenterFocus          | boolean                                                                                                                          | for disabling focus on image center if user doesn't want it                                                                                                           | true         |
+| enableSwipeDown            | boolean                                                                                                                   | for enabling vertical movement if user doesn't want it                                                                                                                | false        |  | false |
 | onSwipeDown                | () => void                                                                                                                       | function that fires when user swipes down                                                                                                                             | null         |
 | swipeDownThreshold         | number                                                                                                                           | threshold for firing swipe down function                                                                                                                              | 230          |
+| enableSwipeUp              | boolean                                                                                                                   | for enabling vertical movement if user doesn't want it                                                                                                                | false        |  | false |
+| onSwipeUp                  | () => void                                                                                                                       | function that fires when user swipes down                                                                                                                             | null         |
+| swipeUpThreshold           | number                                                                                                                           | threshold for firing swipe down function                                                                                                                              | 230          |
 | minScale                   | number                                                                                                                           | minimum zoom scale                                                                                                                                                    | 0.6          |
 | maxScale                   | number                                                                                                                           | maximum zoom scale                                                                                                                                                    | 10           |
 

@@ -2,11 +2,11 @@
   "name": "react-native-image-pan-zoom",
   "version": "2.1.11",
   "description": "react native image pan zoom",
-  "main": "built/index.js",
-  "types": "built/index.d.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
-    "prepare": "rm -rf built && tsc",
-    "start": "tsc -w --outDir demo/built"
+    "prepare": "rm -rf build && tsc",
+    "start": "tsc -w --outDir demo/build"
   },
   "repository": {
     "type": "git",
