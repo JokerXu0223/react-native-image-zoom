@@ -17,7 +17,7 @@ forked from ascoders/react-native-image-zoom(https://github.com/ascoders/react-n
 ### Installation
 
 ```bash
-yarn add (git address)
+yarn add js-react-native-image-pan-zoom
 ```
 
 ### Basic Usage
@@ -38,7 +38,7 @@ $ create-react-native-app AwesomeProject
 
 ```typescript
 import { Image, Dimensions } from 'react-native';
-import ImageZoom from 'react-native-image-pan-zoom';
+import ImageZoom from 'js-react-native-image-pan-zoom';
 
 export default class App extends React.Component {
     render: function() {
