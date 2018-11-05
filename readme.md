@@ -17,7 +17,7 @@ forked from ascoders/react-native-image-zoom(https://github.com/ascoders/react-n
 ### Installation
 
 ```bash
-yarn add react-native-image-pan-zoom
+yarn add (git address)
 ```
 
 ### Basic Usage
