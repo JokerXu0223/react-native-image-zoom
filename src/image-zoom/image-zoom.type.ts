@@ -76,7 +76,7 @@ export class Props {
   /**
    * 双击计时器最大间隔
    */
-  public doubleClickInterval?: number = 175;
+  public doubleClickInterval?: number = 275;
 
   /**
    * If provided this will cause the view to zoom and pan to the center point
